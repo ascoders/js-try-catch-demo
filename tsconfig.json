@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "target": "es6",
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outDir": "built",
+        "moduleResolution": "Node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
+    },
+    "awesomeTypescriptLoaderOptions": {
+        "useWebpackText": true,
+        "forkChecker": true,
+        "useCache": true
+    },
+    "exclude": [
+        "node_modules",
+        "built",
+        "built-production"
+    ]
+}
